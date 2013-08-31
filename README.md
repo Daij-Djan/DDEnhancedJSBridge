@@ -1,5 +1,5 @@
 #About
-DDEnhancedJSBridge is an easy-to-use Javascript-ObjC bridge for IOS and OX partly **based on the ideas of the JSBridge project**.
+DDEnhancedJSBridge is an easy-to-use Javascript-ObjC bridge for IOS and OSX partly **based on the ideas of the JSBridge project**.
 
 It is platform neutral and uses the same ObjC Code and also the same JS Code for **IOS and OSX**. 
 
