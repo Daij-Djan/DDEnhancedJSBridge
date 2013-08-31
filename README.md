@@ -27,7 +27,8 @@ Under IOS this class catches redirects using the ddbridge url scheme. Under OSX,
             }
 
 3. Add the DDBridge.js javascript files to your app's build phase <br/>
-![Copy Build Phase](README-files/logo.png)
+!Make sure it isn't added to the sources instead -- xcode 4 and 5 all want to compile JS, not copy i t
+![Copy Build Phase](https://raw.github.com/Daij-Djan/DDEnhancedJSBridge/master/README-files/copy_files.png)
 
 4. Write your javascript to use the bridge. To send a Command you create a new instance of the DDBridge object in javascript. E.G.
 
