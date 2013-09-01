@@ -5,6 +5,8 @@ It is platform neutral and uses the same ObjC Code and also the same JS Code for
 
 DDEnhancedJSBridge comes as a workspace that includes a project for building the bridge as a **static library** and also **includes demo projects** for the two platforms that in large parts share the same source code. 
 
+Bridging works by converting the parameters to-and-from JSON. Supported are therefory all datatypes that can be expressed as JSON. (On the javascript side, there is a special case for <img> elements. They are transparently converted to base64 data)
+
 ##Usage
 
 ###bridge from Javascript to Objective-C
