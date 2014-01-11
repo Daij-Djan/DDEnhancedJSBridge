@@ -7,6 +7,9 @@ DDEnhancedJSBridge comes as a workspace that includes a project for building the
 
 Bridging works by converting the parameters to-and-from JSON. Supported are therefory all datatypes that can be expressed as JSON. (On the javascript side, there is a special case for <img> elements. They are transparently converted to base64 data)
 
+#####014-01-11 added DDJsonFromWeb (lightweight version!) 
+This is for when you only need to get data from the webview but dont really have to interact with it
+
 ##Usage
 
 ###bridge from Javascript to Objective-C
