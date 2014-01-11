@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B4AA83BC1881454B00C0C889 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AA83BB1881454B00C0C889 /* Foundation.framework */; };
+		B4AA83BE1881454B00C0C889 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AA83BD1881454B00C0C889 /* CoreGraphics.framework */; };
+		B4AA83C01881454B00C0C889 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B4AA83BF1881454B00C0C889 /* UIKit.framework */; };
+		B4AA83C81881454B00C0C889 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA83C71881454B00C0C889 /* main.m */; };
+		B4AA83D41881454B00C0C889 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4AA83D31881454B00C0C889 /* Images.xcassets */; };
+		B4AA84101881463F00C0C889 /* DDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA840D1881463F00C0C889 /* DDAppDelegate.m */; };
+		B4AA84111881463F00C0C889 /* DDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA840F1881463F00C0C889 /* DDViewController.m */; };
+		B4AA841A1881479D00C0C889 /* pic0.png in Resources */ = {isa = PBXBuildFile; fileRef = B4AA84131881479D00C0C889 /* pic0.png */; };
+		B4AA84201881479D00C0C889 /* pic.html in Resources */ = {isa = PBXBuildFile; fileRef = B4AA84191881479D00C0C889 /* pic.html */; };
+		B4AA842F18814B9C00C0C889 /* DDEnhancedJSBridge_getter.js in Resources */ = {isa = PBXBuildFile; fileRef = B4AA842D18814B8A00C0C889 /* DDEnhancedJSBridge_getter.js */; };
+		B4AA843218814BE600C0C889 /* UIWebView+getBridgedElementByID.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA843118814BE600C0C889 /* UIWebView+getBridgedElementByID.m */; };
+		B4AA8435188152A500C0C889 /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = B4AA8434188152A500C0C889 /* NSData+Base64.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B4AA83B81881454B00C0C889 /* DDPicFromWeb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDPicFromWeb.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B4AA83BB1881454B00C0C889 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B4AA83BD1881454B00C0C889 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B4AA83BF1881454B00C0C889 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B4AA83C31881454B00C0C889 /* DDPicFromWeb-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DDPicFromWeb-Info.plist"; sourceTree = "<group>"; };
+		B4AA83C71881454B00C0C889 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B4AA83D31881454B00C0C889 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B4AA83DA1881454B00C0C889 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B4AA840C1881463F00C0C889 /* DDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDAppDelegate.h; sourceTree = "<group>"; };
+		B4AA840D1881463F00C0C889 /* DDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDAppDelegate.m; sourceTree = "<group>"; };
+		B4AA840E1881463F00C0C889 /* DDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDViewController.h; sourceTree = "<group>"; };
+		B4AA840F1881463F00C0C889 /* DDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDViewController.m; sourceTree = "<group>"; };
+		B4AA84131881479D00C0C889 /* pic0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pic0.png; sourceTree = "<group>"; };
+		B4AA84191881479D00C0C889 /* pic.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pic.html; sourceTree = "<group>"; };
+		B4AA842D18814B8A00C0C889 /* DDEnhancedJSBridge_getter.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = DDEnhancedJSBridge_getter.js; sourceTree = "<group>"; };
+		B4AA843018814BE600C0C889 /* UIWebView+getBridgedElementByID.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWebView+getBridgedElementByID.h"; sourceTree = "<group>"; };
+		B4AA843118814BE600C0C889 /* UIWebView+getBridgedElementByID.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWebView+getBridgedElementByID.m"; sourceTree = "<group>"; };
+		B4AA8433188152A500C0C889 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		B4AA8434188152A500C0C889 /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B4AA83B51881454B00C0C889 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AA83BE1881454B00C0C889 /* CoreGraphics.framework in Frameworks */,
+				B4AA83C01881454B00C0C889 /* UIKit.framework in Frameworks */,
+				B4AA83BC1881454B00C0C889 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B4AA83AF1881454B00C0C889 = {
+			isa = PBXGroup;
+			children = (
+				B4AA84121881479D00C0C889 /* Resources */,
+				B4AA83C11881454B00C0C889 /* DDPicFromWeb */,
+				B4AA83BA1881454B00C0C889 /* Frameworks */,
+				B4AA83B91881454B00C0C889 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B4AA83B91881454B00C0C889 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B4AA83B81881454B00C0C889 /* DDPicFromWeb.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B4AA83BA1881454B00C0C889 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B4AA83BB1881454B00C0C889 /* Foundation.framework */,
+				B4AA83BD1881454B00C0C889 /* CoreGraphics.framework */,
+				B4AA83BF1881454B00C0C889 /* UIKit.framework */,
+				B4AA83DA1881454B00C0C889 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4AA83C11881454B00C0C889 /* DDPicFromWeb */ = {
+			isa = PBXGroup;
+			children = (
+				B4AA840C1881463F00C0C889 /* DDAppDelegate.h */,
+				B4AA840D1881463F00C0C889 /* DDAppDelegate.m */,
+				B4AA840E1881463F00C0C889 /* DDViewController.h */,
+				B4AA840F1881463F00C0C889 /* DDViewController.m */,
+				B4AA83D31881454B00C0C889 /* Images.xcassets */,
+				B4AA83C21881454B00C0C889 /* Supporting Files */,
+				B4AA843018814BE600C0C889 /* UIWebView+getBridgedElementByID.h */,
+				B4AA843118814BE600C0C889 /* UIWebView+getBridgedElementByID.m */,
+				B4AA8433188152A500C0C889 /* NSData+Base64.h */,
+				B4AA8434188152A500C0C889 /* NSData+Base64.m */,
+			);
+			path = DDPicFromWeb;
+			sourceTree = "<group>";
+		};
+		B4AA83C21881454B00C0C889 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4AA83C31881454B00C0C889 /* DDPicFromWeb-Info.plist */,
+				B4AA83C71881454B00C0C889 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B4AA84121881479D00C0C889 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4AA842D18814B8A00C0C889 /* DDEnhancedJSBridge_getter.js */,
+				B4AA84131881479D00C0C889 /* pic0.png */,
+				B4AA84191881479D00C0C889 /* pic.html */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B4AA83B71881454B00C0C889 /* DDPicFromWeb */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B4AA83EA1881454B00C0C889 /* Build configuration list for PBXNativeTarget "DDPicFromWeb" */;
+			buildPhases = (
+				B4AA83B41881454B00C0C889 /* Sources */,
+				B4AA83B51881454B00C0C889 /* Frameworks */,
+				B4AA83B61881454B00C0C889 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDPicFromWeb;
+			productName = DDPicFromWeb;
+			productReference = B4AA83B81881454B00C0C889 /* DDPicFromWeb.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B4AA83B01881454B00C0C889 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dominik Pich";
+			};
+			buildConfigurationList = B4AA83B31881454B00C0C889 /* Build configuration list for PBXProject "DDPicFromWeb" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B4AA83AF1881454B00C0C889;
+			productRefGroup = B4AA83B91881454B00C0C889 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B4AA83B71881454B00C0C889 /* DDPicFromWeb */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B4AA83B61881454B00C0C889 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AA842F18814B9C00C0C889 /* DDEnhancedJSBridge_getter.js in Resources */,
+				B4AA83D41881454B00C0C889 /* Images.xcassets in Resources */,
+				B4AA84201881479D00C0C889 /* pic.html in Resources */,
+				B4AA841A1881479D00C0C889 /* pic0.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B4AA83B41881454B00C0C889 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4AA84101881463F00C0C889 /* DDAppDelegate.m in Sources */,
+				B4AA83C81881454B00C0C889 /* main.m in Sources */,
+				B4AA8435188152A500C0C889 /* NSData+Base64.m in Sources */,
+				B4AA84111881463F00C0C889 /* DDViewController.m in Sources */,
+				B4AA843218814BE600C0C889 /* UIWebView+getBridgedElementByID.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B4AA83E81881454B00C0C889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B4AA83E91881454B00C0C889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B4AA83EB1881454B00C0C889 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "DDPicFromWeb/DDPicFromWeb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B4AA83EC1881454B00C0C889 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = "DDPicFromWeb/DDPicFromWeb-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B4AA83B31881454B00C0C889 /* Build configuration list for PBXProject "DDPicFromWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4AA83E81881454B00C0C889 /* Debug */,
+				B4AA83E91881454B00C0C889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B4AA83EA1881454B00C0C889 /* Build configuration list for PBXNativeTarget "DDPicFromWeb" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B4AA83EB1881454B00C0C889 /* Debug */,
+				B4AA83EC1881454B00C0C889 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B4AA83B01881454B00C0C889 /* Project object */;
+}
